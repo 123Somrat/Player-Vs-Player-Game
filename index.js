@@ -12,10 +12,12 @@ const formElm = document.querySelector("form");
 formElm.addEventListener("submit",(evt)=>{
     // getting user Input
     const  inputScore = inputScoreElm.value;
-
+       
     // showing the userInput into dom
      playingToElm.textContent = inputScore;
+    
+     // reset input field 
+     inputScoreElm.value = "";
 
-     
    evt.preventDefault();
 })
