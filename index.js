@@ -10,5 +10,9 @@ const formElm = document.querySelector("form");
 
 // add eventListener in form element
 formElm.addEventListener("submit",(evt)=>{
+    // getting user Input
+    const  inputScore = inputScoreElm.value;
+
+
    evt.preventDefault();
 })
