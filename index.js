@@ -13,6 +13,9 @@ formElm.addEventListener("submit",(evt)=>{
     // getting user Input
     const  inputScore = inputScoreElm.value;
 
+    // showing the userInput into dom
+     playingToElm.textContent = inputScore;
 
+     
    evt.preventDefault();
 })
