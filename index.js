@@ -8,3 +8,7 @@ const p2BtnElm = document.querySelector("#p2Btn");
 const resetBtnElm = document.querySelector("#resetBtn");
 const formElm = document.querySelector("form");
 
+// add eventListener in form element
+formElm.addEventListener("submit",(evt)=>{
+   evt.preventDefault();
+})
